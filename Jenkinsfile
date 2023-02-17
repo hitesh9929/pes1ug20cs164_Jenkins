@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh './pes1ug20cs164_1'// run unit tests using maven
+                sh './pes1ug20cs16_1'// run unit tests using maven
                 echo 'Test stage successful'
             }
         }
